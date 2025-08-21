@@ -43,7 +43,7 @@ TITLE:Manager
 ORG:VNS Carwash
 TEL;TYPE=WORK,VOICE:+971565634761
 TEL;TYPE=WORK,VOICE:+971508031502
-EMAIL:vnscarwash1@gmail.com
+EMAIL:vnscarwash@gmail.com
 URL:http://www.vnscarwash.com
 END:VCARD
   `.trim();
@@ -64,4 +64,5 @@ document.querySelector('.save-contact-button').addEventListener('click', functio
   e.preventDefault();
   downloadVCard();
 });
+
 
